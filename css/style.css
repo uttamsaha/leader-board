@@ -182,3 +182,46 @@ header {
   margin-left: 455px;
   margin-top: 35px;
 }
+
+@media only screen and (max-width:688px){
+
+  .contaienr{
+    width: 100%;
+  }
+  .players, .blogs{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogs{
+    margin-left: 10px;
+  }
+ .player .player-image img{
+   width: 100px;
+   height: 100px;
+ }
+ .courses{
+   display: flex;
+   flex-direction: column;
+ }
+ .course{
+   margin-left: 75px;
+   margin-bottom: 25px;
+ }
+
+.head{
+  margin-left: -570px;
+}
+.head a{
+  font-size: 19px;
+}
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+}
