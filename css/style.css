@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
 }
 main {
   display: flex;
@@ -89,15 +90,15 @@ hr {
 .course {
   width: 252px;
   height: 269px;
-  padding:15px 5px 15px 5px;
+  padding: 15px 5px 15px 5px;
   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 15px;
 }
-.courses{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
+.courses {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
 .courses .course img {
   width: 224px;
@@ -133,9 +134,51 @@ hr {
 .course-title {
   font-size: 20px;
 }
-.latest-course-title{
+.latest-course-title {
   font-size: 24px;
   color: #562eff;
   margin-top: 24px;
   margin-bottom: 30px;
+}
+
+header {
+  height: 94px;
+  background-color: #562eff;
+}
+.head{
+  width: 929px;
+  height: 94px;
+  /* background-color: white; */
+  margin-left: 481px;
+}
+.left-icon img{
+  width: 40px;
+  height: 51px;
+  margin-top: 25px;
+}
+.idea-logo{
+  color: #FFFFFF;;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.logo{
+  width: 51px;
+  height: 51px;
+  margin-top: 25px;
+}
+.head-items{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-icon a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-right: 24px;
+}
+.right-icon{
+  margin-left: 455px;
+  margin-top: 35px;
 }
